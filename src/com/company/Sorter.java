@@ -38,4 +38,10 @@ public class Sorter {
     public void sort(int[] array){
         insertionSort(array);
     }
+
+    public void sortAttempt2(int[] array){
+        //team member A pulled the initial sort mehtod by accedent
+        // without following the intended sequence, this is a second attempt
+        insertionSort(array);
+    }
 }
